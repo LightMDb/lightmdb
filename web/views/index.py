@@ -49,3 +49,7 @@ def login_page(request):
 def register_page(request):
     if user.is_authenticated():
         return redirect('index')
+
+
+def logout_page(request):
+    pass
