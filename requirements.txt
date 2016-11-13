@@ -1,2 +1,4 @@
 Django==1.10.3
 django-gravatar2>=1.4,<2.0
+requests
+beautifulsoup4
