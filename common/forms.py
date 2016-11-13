@@ -82,4 +82,22 @@ class ProfileForm(forms.ModelForm):
         return email
 
     def clean_username(self):
-        pass
+        """
+        Avoid multiple username
+        :return: str username
+        """
+        username = self.cleaned_data.get('username')
+        if not self.instance.pk and username:
+            try:
+                get_user_model().objects.get(username=username)
+                raise ValidationError(_("This user name is already registered."))
+            except get_user_model().DoesNotExist():
+                # No user with such username, its ok to create new one
+                pass
+        return username
+
+
+class EditProfileForm(ProfileForm):
+    class Meta:
+        model = get_user_model()
+        fields = ['first_name', 'last_name', 'email', 'mobile', 'language']
