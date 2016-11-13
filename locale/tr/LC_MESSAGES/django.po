@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-13 21:25+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: common/forms.py:12 common/forms.py:15
+msgid "First Name"
+msgstr ""
+
+#: common/forms.py:22 common/forms.py:25
+msgid "Last Name"
+msgstr ""
+
+#: common/forms.py:32 common/forms.py:36
+msgid "Email"
+msgstr ""
+
+#: common/forms.py:34
+msgid "Will be used for user login. Password will be sent automatically."
+msgstr ""
+
+#: common/forms.py:43 common/models.py:9
+msgid "Mobile Phone"
+msgstr ""
+
+#: common/forms.py:45
+msgid "This phone will be used for sms notifications"
+msgstr ""
+
+#: common/forms.py:47
+msgid "+"
+msgstr ""
+
+#: common/forms.py:55
+msgid "Preferred Language"
+msgstr ""
+
+#: common/forms.py:59
+msgid "Language for notifications"
+msgstr ""
+
+#: common/forms.py:78
+msgid "This email address is already registered."
+msgstr ""
+
+#: common/forms.py:93
+msgid "This user name is already registered."
+msgstr ""
+
+#: common/models.py:12
+msgid "Language"
+msgstr ""
+
+#: lightmdb/settings.py:104
+msgid "English"
+msgstr ""
+
+#: lightmdb/settings.py:105
+msgid "Turkish"
+msgstr ""
+
+#: movie/models.py:11
+msgid "Movie Title"
+msgstr ""
+
+#: movie/models.py:15
+msgid "Movie Language"
+msgstr ""
+
+#: movie/models.py:19
+msgid "Release Date"
+msgstr ""
+
+#: templates/web/base.html:6
+msgid "HomePage"
+msgstr ""
+
+#: templates/web/base.html:70
+msgid "Profile"
+msgstr ""
+
+#: templates/web/base.html:73
+msgid "Sign out"
+msgstr ""
+
+#: templates/web/base.html:80
+msgid "Sign In"
+msgstr "Giriş Yap"
+
+#: templates/web/base.html:82
+msgid "Register"
+msgstr "Kayıt Ol"
+
+#: templates/web/index.html:4
+msgid "Home Page"
+msgstr "Ana Sayfa"
+
+#: web/views/index.py:29
+msgid "Missing Fields"
+msgstr ""
+
+#: web/views/index.py:35
+msgid "User not found"
+msgstr ""
+
+#: web/views/index.py:43
+msgid "Account Disabled"
+msgstr ""
+
+#: web/views/index.py:45
+msgid "Invalid login credentials"
+msgstr ""
