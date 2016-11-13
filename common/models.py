@@ -3,6 +3,7 @@ from django.db import models
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser
 
+
 class User(AbstractUser):
     mobile = models.CharField(
         _("Mobile Phone"), blank=True, null=True, max_length=13
