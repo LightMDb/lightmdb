@@ -26,6 +26,7 @@ LICENSE
 -------
 
 Copyright (C) 2016 Emin Mastizada
+
 Copyright (C) 2016 Emre Eroglu
 
     This program is free software: you can redistribute it and/or modify
