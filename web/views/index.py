@@ -18,6 +18,7 @@ def index(request):
     """Index Page."""
     return render(request, "web/index.html", {})
 
+
 def login_page(request):
     if user.is_authenticated():
         return redirect('index')

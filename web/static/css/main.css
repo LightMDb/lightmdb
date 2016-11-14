@@ -65,6 +65,9 @@ li.user-header {
     background-color: #1a242f;
     padding: 0px;
 }
+.user-header > p > small {
+  display: block;
+}
 .extra-pt5 {
   padding-top: 10em;
 }
